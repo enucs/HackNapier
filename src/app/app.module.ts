@@ -37,11 +37,13 @@ import {MatTableModule} from '@angular/material/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TimelineComponent
+    TimelineComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
