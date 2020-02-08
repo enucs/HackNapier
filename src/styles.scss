@@ -212,6 +212,32 @@ body {
         margin-bottom: 1em;
     }
 
+    a {
+        &.white_link {
+            color: #fff;
+
+            &:hover, &:active {
+                color: #d4bfe6;
+            }
+
+            &:visited {
+                color: #aa80ce;
+            }
+        }
+
+        &.purple_link {
+            color: #54009c;
+
+            &:hover, &:active {
+                color: #7f40b5;
+            }
+
+            &:visited {
+                color: #a173c9;
+            }
+        }
+    }
+
     .purple {
         color: #54009c; 
     }

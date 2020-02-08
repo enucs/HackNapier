@@ -51,7 +51,7 @@ export class FaqComponent implements OnInit {
       },
       {
         title: 'Can I volunteer at the event?',
-        description: 'Absolutely! Please send an email to <a href="mailto:contact@enucs.org.uk">contact@enucs.org.uk</a> to get involved.'
+        description: 'Absolutely! Please send an email to <a class="purple_link" href="mailto:contact@enucs.org.uk">contact@enucs.org.uk</a> to get involved.'
       },
     ];
   }
