@@ -12,7 +12,7 @@ body {
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif;
     color: #fff;
-}
+    background-color: white;}
 
 .landing-banner {
     height: 90vh;
@@ -20,7 +20,16 @@ body {
     position: absolute;
     z-index: 1;
     width: 100%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: white;
+
+    .button {
+        background-color:#54009c;
+        position: relative;
+        top: -120px;
+        color:white;
+        font-size: 1.5em;
+        padding: 10px 30px;
+    }
 
     h1 {
         font-family: 'aldo_the_apacheregular';
@@ -32,12 +41,13 @@ body {
     }
     .hack {
         font-size: 20em;
-
+        position: relative;
+        top: -30px;
     }
     .napier {
         font-size: 14.6em;
         position: relative;
-        top: -89px;
+        top: -119px;
         left: -1.3px;
         background: linear-gradient(45deg,
         rgb(100, 0, 186) 0%,
@@ -59,7 +69,7 @@ body {
         color:
         #3f3f3f;
         position: relative;
-        top: -110px;
+        top: -140px;
     }
 }
 
@@ -106,6 +116,7 @@ body {
     .event-sponsor-section {
         height: 60vh;
         padding: 5% 0;
+        background-color: white;
         .content {
             width: 60%;
             margin: 0 auto;
@@ -146,6 +157,7 @@ body {
         height: 60vh;
         padding: 5% 0;
         padding-bottom: 15%;
+        background-color: white;
         .content {
             width: 60%;
             margin: 0 auto;
@@ -188,6 +200,18 @@ body {
                 .contact-card {
                     width: 33%;
                     margin-right: 1em;
+                    text-align: center;
+                    .contact-card-title {
+                        font-size: 4em;
+                    }
+                    .contact-card-content {
+                        font-size: 1em;
+                        a {
+                            color: #54009c;
+                            text-decoration: none;
+    
+                        }
+                    }
                 }
                 .contact-card:last-child {
                     margin-right: 0;
@@ -255,4 +279,13 @@ body {
             box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
         }
     }
+}
+
+.button {
+    background-color: white;
+    position: relative;
+    top: -120px;
+    color:#54009c;
+    font-size: 1.5em;
+    padding: 10px 30px;
 }

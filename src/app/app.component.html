@@ -2,13 +2,14 @@
   <h1 class="hack">Hack</h1>
   <h1 class="napier">Napier</h1>
   <span class="event-date">7-8 March, 2020</span>
+  <button mat-raised-button class="button" (click)="navigateToRegisterForm()">Register Now</button>
 </div>
 <div class="inner-content">
   <div class="general-info-section">
     <div class="content">
       <div class="info-block">
         <h1>What is it?</h1>
-        <span>HackNapier is a 24 hour hackathon hosted at Edinburgh Napier University and organised by the <a class="white_link" href="https://enucs.org.uk/" target="_blank">Edinburgh Napier University Computing Society</a>.</span>
+        <span>HackNapier is a 24 hour hackathon hosted at Edinburgh Napier University and organised by the <a class="white_link" rel="noopener noreferrer" href="https://enucs.org.uk/" target="_blank">Edinburgh Napier University Computing Society</a>. Check out the <strong>Code of Conduct</strong>&nbsp;<a class="white_link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1JWww20b4XAQBehpMNA6zg4uQ9kQT5TC8Q8ny7OkPWTo/edit?usp=sharing">here</a>.</span>
       </div>
       <div class="info-block">
         <h1>When is it?</h1>
@@ -27,37 +28,11 @@
   </div>
   <div class="event-sponsor-section">
     <div class="content">
-
       <div class="info-block">
         <h1 class="gray"><span class="purple">Event</span> Sponsors</h1>
       </div>
- 
-      <mat-grid-list cols="4" rowHeight="2:1">
-        <!-- Headline -->
-        <mat-grid-tile colspan="4">
-          sponsor 1
-        </mat-grid-tile>
-        <!-- Gold-->
-        <mat-grid-tile colspan="2">
-          sponsor 2
-        </mat-grid-tile>
-        <mat-grid-tile colspan="2">
-          sponsor 3
-        </mat-grid-tile>
-        <!-- Silver -->
-        <mat-grid-tile colspan="1">
-          sponsor 4
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1">
-          sponsor 5
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1">
-          sponsor 6
-        </mat-grid-tile>
-        <mat-grid-tile colspan="1">
-          sponsor 7
-        </mat-grid-tile>
-      </mat-grid-list>
+
+      <h2>Announced soon...</h2>
     </div>
   </div>
 
@@ -89,27 +64,27 @@
         </div>
         <div class="contact-card-container">
           <mat-card class="contact-card">
-            <mat-card-title>
-              Email <!-- Use icons instead -->
+            <mat-card-title class="contact-card-title">
+              <em class="fas fa-envelope-square"></em>
             </mat-card-title>
-            <mat-card-content>
-
+            <mat-card-content class="contact-card-content">
+              <a href="mailto:contact@enucs.org.uk">contact@enucs.org.uk</a>
             </mat-card-content>
           </mat-card>
           <mat-card class="contact-card">
-            <mat-card-title>
-              Facebook
+            <mat-card-title class="contact-card-title">
+              <em class="fab fa-facebook-square"></em>
             </mat-card-title>
-            <mat-card-content>
-
+            <mat-card-content class="contact-card-content">
+              <a href="https://www.facebook.com/enucs">https://www.facebook.com/enucs</a>
             </mat-card-content>
           </mat-card>
           <mat-card class="contact-card">
-            <mat-card-title>
-              Twitter
+            <mat-card-title class="contact-card-title">
+              <em class="fab fa-twitter-square"></em>
             </mat-card-title>
-            <mat-card-content>
-
+            <mat-card-content class="contact-card-content">
+              <a href="https://twitter.com/enucs">https://twitter.com/enucs</a>
             </mat-card-content>
           </mat-card>
         </div>
